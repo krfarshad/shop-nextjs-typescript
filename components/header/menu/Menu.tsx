@@ -7,7 +7,7 @@ function Menu(){
                 <Link className="mx-4 dark:text-white" href="/">Home</Link> 
             </li>
             <li className="mx-4 inline-block">
-                <Link className="mx-4 dark:text-white" href="/shop">Shop</Link>
+                <Link className="mx-4 dark:text-white" href="/Products">Products</Link>
             </li>
         </ul>
      </nav>
