@@ -7,7 +7,7 @@ const CardProduct = ({ productInfo }: any) => {
 
           <div className="card-img">
             <figure className="text-center pt-1">
-            <Link href={`products/${productInfo.id}`}>
+            <Link href={`Products/${productInfo.id}`}>
               <Image
                 className="w-full"
                 src={productInfo.thumbnail}
@@ -20,7 +20,7 @@ const CardProduct = ({ productInfo }: any) => {
           </div>
           {/* title */}
           <div className="card-title p-2 text-center font-bold">
-            <h2><Link href={`products/${productInfo.id}`}>{productInfo.title}</Link></h2>
+            <h2><Link href={`Products/${productInfo.id}`}>{productInfo.title}</Link></h2>
           </div>
           {/* card description */}
           <div className="card-desc p-2">
