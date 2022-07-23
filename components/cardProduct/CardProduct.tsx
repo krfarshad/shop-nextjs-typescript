@@ -7,7 +7,7 @@ const CardProduct = ({ productInfo }: any) => {
 
           <div className="card-img">
             <figure className="text-center pt-1">
-            <Link href={`Products/${productInfo.id}`}>
+            <Link href={`products/${productInfo.id}`}>
               <Image
                 className="w-full"
                 src={productInfo.thumbnail}
