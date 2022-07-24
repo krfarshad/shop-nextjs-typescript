@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {Product} from '../../utils/types/productApi';
 
-const CardProduct = ( productInfo:any  ) => {
+const CardProduct = ( productInfo:}  ) => {
   console.log(productInfo)
   return (
     <div className="card-item border border-slate-100 rounded-sm mb-2 hover:shadow-lg hover:shadow-slate-200 transition-all ease-linear">
