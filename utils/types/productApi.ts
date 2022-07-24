@@ -1,4 +1,4 @@
-export default interface ProductApi {
+export interface Product{
     id:number,
     title:string,
     price:number,
@@ -6,4 +6,8 @@ export default interface ProductApi {
     category ?: string ,
     image ?:string ,
     rating : { rate:number , count :number }
+}
+
+export interface ProductApi {
+   products : Product[]
 }

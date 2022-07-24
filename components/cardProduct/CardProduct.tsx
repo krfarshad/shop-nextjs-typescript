@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-const CardProduct = ({ productInfo }: any) => {
+import {Product} from '../../utils/types/productApi';
+
+const CardProduct = ( productInfo:any  ) => {
+  console.log(productInfo)
   return (
     <div className="card-item border border-slate-100 rounded-sm mb-2 hover:shadow-lg hover:shadow-slate-200 transition-all ease-linear">
   
@@ -10,7 +13,7 @@ const CardProduct = ({ productInfo }: any) => {
             <Link href={`products/${productInfo.id}`}>
               <Image
                 className="w-full"
-                src={productInfo.thumbnail}
+                src={productInfo.image}
                 alt={productInfo.title}
                 width={"220px"}
                 height={"200px"}
