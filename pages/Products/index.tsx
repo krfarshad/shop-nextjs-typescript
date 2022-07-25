@@ -13,7 +13,7 @@ const Products = (productsitems:ProductApi) => {
         <div className="container mx-auto p-10 ">
           <div className="products-inner grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {products.map((product: Product) => {
-              return  <CardProduct productInfo={product} id={product.id} key={product.id} />;
+              return  <CardProduct productInfo={product}  key={product.id} />;
             })}
           </div>
         </div>
